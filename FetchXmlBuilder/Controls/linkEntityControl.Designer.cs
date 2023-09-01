@@ -132,7 +132,15 @@ namespace Rappen.XTB.FetchXmlBuilder.Controls
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "",
+            "all",
+            "any",
+            "exists",
+            "in",
             "inner",
+            "matchfirstrowusingcrossapply",
+            "natural",
+            "not all",
+            "not any",
             "outer"});
             this.comboBox2.Location = new System.Drawing.Point(7, 176);
             this.comboBox2.Name = "comboBox2";
